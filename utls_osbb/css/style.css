@@ -1,0 +1,91 @@
+body, html {
+          max-width: 100%;
+          max-height: 100%;
+          margin: 0;
+          font-family: helvetica;   
+         background: url(../images/110831sum5owK6tPP7l8ce5DyDJ5uo6iA77.jpg) no-repeat center center fixed; 
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+  overflow: hidden;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+header{
+    text-align: center;
+    color: black;
+    background: white;
+    font-size: 30px;
+}
+
+/* слайдер начало скрипта */
+
+
+.sl_ctr{
+width:100%;
+overflow:hidden;
+}
+.prv_b, .nxt_b{
+position:absolute;
+top:50%;
+display:block;
+width:35px;
+height:35px;
+cursor:pointer;
+}
+.prv_b:hover, .nxt_b:hover{opacity:.6;}
+.prv_b{
+left:10px;
+background:url(../images/prv.png) no-repeat;
+}
+.nxt_b{
+right:10px;
+background:url(../images/nxt.png) no-repeat;
+}
+
+
+/* слайдер конец скрипта */
+
+
+
+
+
+.colr{
+    color: red;  
+       
+}
+
+
+/*@media only screen and (min-width:320px) and (max-width:500px) {АДАПТАЦИЯ ЭКРАНА
+    .t-panel {display: block;}
+    .w-panel {display: none;}
+   }*/
+
+   
+   
+
+
+.panel-1{
+    background: white;
+    
+}
+h2{
+    color: aliceblue;
+}
+
+object{
+    max-width: 100vw; 
+    padding: 0px; 
+    margin: 0 auto; 
+    max-height: 100vh;
+    position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+z-index: 9999;    
+
+}

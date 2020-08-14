@@ -1,0 +1,114 @@
+.plc_label{
+    width: 250px; /* Ширина */
+    text-align: right; /* Выравниваем по правому краю */
+    float: left;  /*Выстраиваем элементы рядом */
+    margin-right: 10px; /* Расстояние от текста до текстового поля */
+
+    /*line-height: 20px;  Выравниваем по высоте */
+}
+
+.plc_select{
+    width: 220px; 
+}
+
+.plc_style{
+/*     margin-left: 95px;*/
+    width: 216px; /* Ширина поля в пикселах */
+}
+
+.plc_io_label{
+    width: 90px; /* Ширина */
+    text-align: center; /* Выравниваем по центру */
+    float: left;  /*Выстраиваем элементы рядом */
+    margin-right: 7px; /* Расстояние от текста до текстового поля */
+    margin-left: 7px;
+    /*line-height: 20px;  Выравниваем по высоте */
+}
+
+/* Налаштування текстових полів */
+.text_shot{
+/*     margin-left: 95px;*/
+    width: 50px; /* Ширина поля в пикселах */
+    margin-right: 2px; /* Расстояние от текста до текстового поля */
+    margin-left: 2px;
+}
+
+.text_midle{
+    width: 100px; 
+    margin-right: 2px; /* Расстояние от текста до текстового поля */
+    margin-left: 2px;
+}
+
+.text_long{
+    width: 150px; 
+    margin-right: 2px; /* Расстояние от текста до текстового поля */
+    margin-left: 2px;
+}
+
+.text_very_long{
+    width: 400px; 
+    margin-right: 2px; /* Расстояние от текста до текстового поля */
+    margin-left: 2px;
+}
+
+.text_midle_area{
+    width: 350px; 
+    margin-right: 2px; /* Расстояние от текста до текстового поля */
+    margin-left: 2px;
+    resize: none;
+}
+
+.text_long_area{
+    width: 800px; 
+    margin-right: 2px; /* Расстояние от текста до текстового поля */
+    margin-left: 2px;
+    resize: none;
+}
+
+/*Налаштування кнопок*/
+.b_delete{
+    border: 2px red solid;
+    background: red;
+    color: white;
+}
+
+/*Налаштування для сторінки ЛОГІКИ*/
+.svg_objects_menu {
+   /* height: 200px; */  
+    width:30%;
+}
+
+.svg_objects_list {
+    
+/*    display:  block;*/
+/*    height: 300px; */
+    
+    overflow: auto; /*полоса прокрутки*/ 
+    height: 70vh;
+    width: 30%;
+    float: left;    /*обтекание текста по правому краю*/
+}
+
+/**/
+.container_io{
+    overflow:hidden;
+    /*width:90%*/
+}
+.box{white-space:nowrap}
+.box1{
+    float: left;
+    width:55%;
+     height: 90vh;
+    display:inline-block;
+    border:1px solid black;
+    overflow: auto;
+}
+
+.box2{
+    float: left;
+    width:30%;
+     height: 90vh;
+    display:inline-block;
+    border:1px solid black;
+    overflow: auto;
+}
